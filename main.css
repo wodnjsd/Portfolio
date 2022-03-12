@@ -1,0 +1,69 @@
+*{
+  font-family: 'Nunito'
+}
+
+body{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px 100px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size:20px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 30px 0px;
+}
+h1{
+  font-size: 35px;
+}
+section {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 50px;
+  margin: 20px;
+}
+ul{
+  list-style: none;
+}
+ a{
+  text-decoration: none;
+  color: grey
+}
+.About{
+  background-color: #B9E1E6;
+  flex: 3;
+  text-align:center;
+}
+.Skills{
+  background-color: #B9E1E6;
+}
+
+.contact {
+  padding: 20px 10px;
+  margin: 20px 0px;
+  text-align: left;
+  border: solid grey 2px;
+}
+input {
+  border: none;
+}
+
+.navbar li:hover {
+  text-decoration:underline;
+}
+
+#submit:hover {
+  transform: scale(1.1);
+  background-color: teal;
+}
